@@ -27,7 +27,16 @@ export function Footer() {
             <ul className="mt-2 space-y-1.5 text-sm text-background/70">
               <li>{t("Help Center", "Centre d'aide")}</li>
               <li>{t("Returns", "Retours")}</li>
-              <li>{t("Contact Us", "Nous Contacter")}</li>
+              <li>
+  <a 
+    href="https://wa.me/254740851805text=Hi%20SokoBu,%20I%20have%20a%20question" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="hover:text-primary transition-colors flex items-center gap-2"
+  >
+    {t("Contact Us", "Nous Contacter")}
+  </a>
+</li>
             </ul>
           </div>
           <div>
